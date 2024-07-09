@@ -149,5 +149,43 @@ opacity: 0.7;
 
 /* my inspiration section starts here */
 .my-inspiration-container{
-    
+    width: 1140px;
+    height: 777px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.my-inspiration-content{
+    width: 852px;
+height: 115px;
+text-align: center;
+}
+
+.my-inspiration-content h2{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+margin-bottom: 20px;
+}
+
+.my-inspiration-content p{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+.inspiration-video{
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+align-self: auto;
+padding: 50px;
 }
