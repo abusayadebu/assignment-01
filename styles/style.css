@@ -163,6 +163,10 @@ opacity: 0.7;
     width: 852px;
 height: 115px;
 text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 
 .my-inspiration-content h2{
@@ -187,6 +191,6 @@ opacity: 0.7;
 .inspiration-video{
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
-align-self: auto;
 padding: 50px;
+text-align: center;
 }
