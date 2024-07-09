@@ -194,3 +194,71 @@ border-radius: 16px;
 padding: 50px;
 text-align: center;
 }
+
+/* current target section style here */
+.current-target-section{
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.section-title{
+    margin-bottom: 20px;
+}
+.section-description{
+    margin-bottom: 40px;
+    padding: 0px 40px;
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+}
+
+.card-container{
+    display: flex;
+    gap:24px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.card-img{
+    margin-bottom: 20px;
+}
+
+.card-one{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.card-two{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+
+}
+
+.card-three{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.btn-current{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    margin: 24px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 284px;
+    height: 20px;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    text-align: left;
+    cursor: pointer;
+}
