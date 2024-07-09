@@ -14,7 +14,6 @@ body{
 .hero-banner-container{
     width: 1440px;
     height: 652px;
-    border: 1px solid red;
     margin: 0 auto;
     background-image: url("../assets/Hero-bg.png");
     background-position: center;
@@ -58,4 +57,97 @@ body{
     font-weight: 600;
     cursor: pointer;
     border: none;
+}
+
+/* Web development section starts here */
+.why-web-dev{
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    margin-top: 75px;
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+}
+
+.web-dev-content{
+    margin-bottom: 20px;
+}
+
+.web-dev-content-one{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.web-dev-content-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+    margin: 0 50px;
+}
+
+.sub-content-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.sub-content-left h2{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+}
+
+.sub-content-left p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+}
+
+.btn{
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    margin: 32px 0px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.web-dev-content-three{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+    margin: 20px 50px;
+}
+
+.web-dev-content-four{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+    margin: 0 50px;
+}
+
+
+/* my inspiration section starts here */
+.my-inspiration-container{
+    
 }
