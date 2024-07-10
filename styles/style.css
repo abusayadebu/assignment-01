@@ -9,6 +9,30 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+/* Nav bar style starts here */
+
+.nav-bar{
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-bar h1{
+font-size: 24px;
+font-weight: 800;
+}
+
+.nav-bar button{
+font-size: 24px;
+font-weight: 800;
+padding: 12px 20px 12px 20px;
+border-radius: 8px;
+background: none;
+cursor: pointer;
+}
+
 
 /* hero section starts here */
 .hero-banner-container{
@@ -57,6 +81,10 @@ body{
     font-weight: 600;
     cursor: pointer;
     border: none;
+}
+.hero-content button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 /* Web development section starts here */
@@ -113,6 +141,7 @@ font-size: 16px;
 font-weight: 400;
 opacity: 0.7;
 }
+
 
 .btn{
     width: 150px;
@@ -283,13 +312,13 @@ opacity: 0.7;
 .section-content{
     text-align: center;
 }
-.section-title{
+.section-title-two{
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
 }
 
-.section-description{
+.section-description-two{
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
@@ -323,4 +352,17 @@ background: rgb(255, 255, 255);
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     cursor: pointer;
+}
+
+/* footer style is here */
+#footer-section{
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 75px;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
 }
